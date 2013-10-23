@@ -8,6 +8,8 @@
 </head>
 <body onload="project.initialize()">
 	<div id="header_wrapper">
+		<!-- The HTML code is a space character, it's there because the element needs to have a child to be removed when some methods are first called -->
+		<!-- I used a HTML code so that it doesn't get removed when minifying the HTML -->
 		<h1 id="header">&#32;
 		</h1>
 	</div>
@@ -35,6 +37,7 @@
 	<div id="footer">
 		<a href="#"><img src="images/top.png" alt="Top"/></a>
 	</div>
+	<!-- The script is here due to advanced black magic that makes the whole thing work in Chrome -->
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
