@@ -47,6 +47,7 @@ module.exports = function(grunt)
 		{
 			files: 
 			[
+				//xml files aren't minified because minification removes relevant data
 				{src: ['images/*.*'], dest: 'build/'},
 				{src: ['xml/*.*'], dest: 'build/'},
         
