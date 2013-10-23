@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+	<title>Project 1</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	
+</head>
+<body onload="project.initialize()">
+	<div id="header_wrapper">
+		<h1 id="header">&#32;
+		</h1>
+	</div>
+	<div id="wrapper">
+		<form action="" name="theForm" onsubmit="return project.validateForm()">
+			<div>
+				<div id="content">
+				</div>
+				<div id="buttons">&#32;
+					<input id="next" value="Next" type="button" onclick="project.next()" class="button"/>
+					<input id="reset" value="Reset" type="button" onclick="project.reset()" class="button"/>
+				</div>
+				<div id="inputs" style="opacity: 0; visibility: hidden">
+					<label>First name </label><input type="text" name="firstname" id="firstname"/>
+					<br/>
+					<label>Last name </label><input type="text" name="lastname" id="lastname"/>
+					<br/>
+					<label>E-mail </label><input type="text" name="email" id="email"/>
+					<br/>
+					<input type="submit" value="Submit" id="submit" class="button"/>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div id="footer">
+		<a href="#"><img src="images/top.png" alt="Top"/></a>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<questions>
+	<question>
+		<header>Are you looking for a DC or a Marvel character?</header>
+		<id>0</id>
+		<option>DC</option>
+		<option>Marvel</option>
+	</question>
+	<question>
+		<header>Hero or villain?</header>
+		<id>1</id>
+		<option>Hero</option>
+		<option>Villain</option>
+	</question>
+	<question>
+		<header>Can they fly?</header>
+		<id>2</id>
+		<option>Yes</option>
+		<option>No</option>
+	</question>
+	<question>
+		<header>Male or female?</header>
+		<id>3</id>
+		<option>Male</option>
+		<option>Female</option>
+	</question>
+	<result>
+		<header>Your chosen character is </header>
+		<id>4</id>
+		<DC>
+			<Hero>
+				<Yes>
+					<Male>Superman</Male>
+					<Female>Wonder Woman</Female>
+				</Yes>
+				<No>
+					<Male>Batman</Male>
+					<Female>Zatanna</Female>
+				</No>
+			</Hero>
+			<Villain>
+				<Yes>
+					<Male>General Zod</Male>
+					<Female>Blackfire</Female>
+				</Yes>
+				<No>
+					<Male>The Joker</Male>
+					<Female>Harley Quinn</Female>
+				</No>
+			</Villain>
+		</DC>
+		<Marvel>
+			<Hero>
+				<Yes>
+					<Male>Doctor Strange</Male>
+					<Female>Storm</Female>
+				</Yes>
+				<No>
+					<Male>Deadpool</Male>
+					<Female>Jubilee</Female>
+				</No>
+			</Hero>
+			<Villain>
+				<Yes>
+					<Male>Magneto</Male>
+					<Female>Shriek</Female>
+				</Yes>
+				<No>
+					<Male>Loki</Male>
+					<Female>Mystique</Female>
+				</No>
+			</Villain>
+		</Marvel>
+	</result>
+</questions>
